@@ -77,7 +77,7 @@ public class ActionButtonItem: NSObject {
         self.button = UIButton(type: .Custom)
         self.button.frame = CGRect(origin: CGPoint(x: self.viewSize.width - self.buttonSize.width, y: 0), size: buttonSize)
         self.button.layer.shadowOpacity = 1
-        self.button.layer.shadowRadius = 2
+        self.button.layer.shadowRadius = 0 //убрал тень эл-ов
         self.button.layer.shadowOffset = CGSize(width: 1, height: 1)
         self.button.layer.shadowColor = UIColor.grayColor().CGColor
         self.button.addTarget(self, action: "buttonPressed:", forControlEvents: .TouchUpInside)
