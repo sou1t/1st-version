@@ -102,7 +102,7 @@ public class ActionButton: NSObject {
         self.parentView.addSubview(self.floatButton)
 
         self.contentView = UIView(frame: bounds)
-        self.blurVisualEffect = UIVisualEffectView(effect: UIBlurEffect(style: .ExtraLight))
+        self.blurVisualEffect = UIVisualEffectView(effect: UIBlurEffect(style: .Dark))
         self.blurVisualEffect.frame = self.contentView.frame
         self.contentView.addSubview(self.blurVisualEffect)
         

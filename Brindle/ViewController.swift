@@ -9,9 +9,12 @@
 import UIKit
 import Foundation
 import Alamofire
+import ActionButton
 
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    var actionButton: ActionButton!
     
     @IBOutlet weak var DownloadTest: UIButton!
     
@@ -33,6 +36,35 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.progress.progress = 0.0
         arr = ["BRINDLEAUGUST.png", "2.png", "3.png", "4.png", "5.png"];
         self.navigationController!.navigationBar.alpha = 0.0
+        let twitterImage = UIImage(named: "twitter_icon.png")!
+        let instImage = UIImage(named: "instagram_logo.png")!
+        let vkImage = UIImage(named: "vk_logo.png")!
+        let fbImage = UIImage(named: "fb_logo.png")!
+        let icon = UIImage(named: "info44.png")!
+        let close = UIImage(named: "close33.png")!
+        
+        let twitter = ActionButtonItem(title: nil, image: twitterImage)
+        twitter.action = { item in print("Twitter..."); UIApplication.sharedApplication().openURL(NSURL(string:"http://twitter.com/brindleofficial")!) }
+        
+        let instagram = ActionButtonItem(title: nil, image: instImage)
+        instagram.action = { item in print("Insta..."); UIApplication.sharedApplication().openURL(NSURL(string:"http://instagram.com/brindleofficial")!) }
+        
+        let facebook = ActionButtonItem(title: nil, image: fbImage)
+        facebook.action = { item in print("Facebook..."); UIApplication.sharedApplication().openURL(NSURL(string:"http://facebook.com/brindleofficial")!) }
+        
+        let vk = ActionButtonItem(title: nil, image: vkImage)
+        vk.action = { item in print("VK..."); UIApplication.sharedApplication().openURL(NSURL(string:"http://vk.com/brindleofficial")!) }
+        
+        
+        
+        actionButton = ActionButton(attachedToView: self.view, items: [vk, twitter, facebook, instagram])
+        actionButton.action = { button in button.toggleMenu() }
+        actionButton.setImage(icon, forState: .Normal)
+        actionButton.setImage(close, forState: .Selected)
+        
+        
+        actionButton.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha:1.0)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     

@@ -16,6 +16,13 @@
 		3F00ABE61BF65C59004AF145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00ABE41BF65C59004AF145 /* LaunchScreen.storyboard */; };
 		3F00ABF11BF65C5A004AF145 /* BrindleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABF01BF65C5A004AF145 /* BrindleTests.swift */; };
 		3F00ABFC1BF65C5A004AF145 /* BrindleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABFB1BF65C5A004AF145 /* BrindleUITests.swift */; };
+		3F25869E1C03B6F900FE0B6A /* fb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F25869D1C03B6F900FE0B6A /* fb_logo.png */; };
+		3F2586A01C03B70300FE0B6A /* googleplus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F25869F1C03B70300FE0B6A /* googleplus_icon.png */; };
+		3F2586A21C03B70C00FE0B6A /* instagram_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2586A11C03B70C00FE0B6A /* instagram_logo.png */; };
+		3F2586A41C03B71500FE0B6A /* twitter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2586A31C03B71500FE0B6A /* twitter_icon.png */; };
+		3F2586A61C03B71D00FE0B6A /* vk_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2586A51C03B71D00FE0B6A /* vk_logo.png */; };
+		3F2586A81C03BACC00FE0B6A /* info44.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2586A71C03BACC00FE0B6A /* info44.png */; };
+		3F2586AA1C03BF9900FE0B6A /* close33.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2586A91C03BF9900FE0B6A /* close33.png */; };
 		3F34DB8E1BF899950027892A /* BRINDLEAUGUST.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */; };
 		3F37EBA31BF674FA0026A3BA /* MagazineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EBA21BF674FA0026A3BA /* MagazineViewCell.swift */; };
 		3F37EBA51BF676640026A3BA /* EditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EBA41BF676640026A3BA /* EditionViewController.swift */; };
@@ -68,6 +75,13 @@
 		3F00ABF71BF65C5A004AF145 /* BrindleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrindleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00ABFB1BF65C5A004AF145 /* BrindleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrindleUITests.swift; sourceTree = "<group>"; };
 		3F00ABFD1BF65C5A004AF145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F25869D1C03B6F900FE0B6A /* fb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_logo.png; path = Assets.xcassets/fb_logo.imageset/fb_logo.png; sourceTree = "<group>"; };
+		3F25869F1C03B70300FE0B6A /* googleplus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = googleplus_icon.png; path = Assets.xcassets/googleplus_icon.imageset/googleplus_icon.png; sourceTree = "<group>"; };
+		3F2586A11C03B70C00FE0B6A /* instagram_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagram_logo.png; path = Assets.xcassets/instagram_icon.imageset/instagram_logo.png; sourceTree = "<group>"; };
+		3F2586A31C03B71500FE0B6A /* twitter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_icon.png; path = Assets.xcassets/twitter_icon.imageset/twitter_icon.png; sourceTree = "<group>"; };
+		3F2586A51C03B71D00FE0B6A /* vk_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vk_logo.png; path = Assets.xcassets/vk_icon.imageset/vk_logo.png; sourceTree = "<group>"; };
+		3F2586A71C03BACC00FE0B6A /* info44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info44.png; sourceTree = "<group>"; };
+		3F2586A91C03BF9900FE0B6A /* close33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close33.png; sourceTree = "<group>"; };
 		3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRINDLEAUGUST.png; sourceTree = "<group>"; };
 		3F37EBA21BF674FA0026A3BA /* MagazineViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineViewCell.swift; sourceTree = "<group>"; };
 		3F37EBA41BF676640026A3BA /* EditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditionViewController.swift; path = ../EditionViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +208,13 @@
 		3F37EBBC1BF7422D0026A3BA /* img */ = {
 			isa = PBXGroup;
 			children = (
+				3F2586A91C03BF9900FE0B6A /* close33.png */,
+				3F2586A71C03BACC00FE0B6A /* info44.png */,
+				3F2586A51C03B71D00FE0B6A /* vk_logo.png */,
+				3F2586A31C03B71500FE0B6A /* twitter_icon.png */,
+				3F2586A11C03B70C00FE0B6A /* instagram_logo.png */,
+				3F25869F1C03B70300FE0B6A /* googleplus_icon.png */,
+				3F25869D1C03B6F900FE0B6A /* fb_logo.png */,
 				3FFFB5661C02360E008BDADF /* 1.png */,
 				3F6664341BFA12320097B460 /* Touchicon.png */,
 				3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */,
@@ -344,16 +365,23 @@
 			files = (
 				3F37EBB91BF741C90026A3BA /* 5.html in Resources */,
 				3FFFB5671C02360E008BDADF /* 1.png in Resources */,
+				3F2586AA1C03BF9900FE0B6A /* close33.png in Resources */,
 				3F37EBB81BF741C90026A3BA /* 4.png in Resources */,
 				3F34DB8E1BF899950027892A /* BRINDLEAUGUST.png in Resources */,
+				3F2586A81C03BACC00FE0B6A /* info44.png in Resources */,
 				3FFFB5651C0235F9008BDADF /* BRINDLEAUGUST.hyperesources in Resources */,
 				3F37EBB51BF741C90026A3BA /* 3.html in Resources */,
 				3F37EBB71BF741C90026A3BA /* 4.html in Resources */,
+				3F2586A61C03B71D00FE0B6A /* vk_logo.png in Resources */,
+				3F2586A21C03B70C00FE0B6A /* instagram_logo.png in Resources */,
 				3F37EBB41BF741C90026A3BA /* 2.png in Resources */,
 				3F00ABE61BF65C59004AF145 /* LaunchScreen.storyboard in Resources */,
 				3F37EBB61BF741C90026A3BA /* 3.png in Resources */,
+				3F25869E1C03B6F900FE0B6A /* fb_logo.png in Resources */,
 				3F37EBBB1BF741C90026A3BA /* Brindle.png in Resources */,
 				3F00ABE31BF65C59004AF145 /* Assets.xcassets in Resources */,
+				3F2586A01C03B70300FE0B6A /* googleplus_icon.png in Resources */,
+				3F2586A41C03B71500FE0B6A /* twitter_icon.png in Resources */,
 				3FFFB5641C0235F9008BDADF /* BRINDLEAUGUST.html in Resources */,
 				3F6664351BFA12320097B460 /* Touchicon.png in Resources */,
 				3F37EBBA1BF741C90026A3BA /* 5.png in Resources */,
