@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2761DBD02A1684E88B9C67F2 /* Pods_BrindleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB1EF26D2DBB09305D7803 /* Pods_BrindleUITests.framework */; };
+		34F6690581CEFEE0B3B33AA2 /* Pods_Brindle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48B2B95751B999CF90C6423 /* Pods_Brindle.framework */; };
 		3F00ABDC1BF65C59004AF145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABDB1BF65C59004AF145 /* AppDelegate.swift */; };
 		3F00ABDE1BF65C59004AF145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABDD1BF65C59004AF145 /* ViewController.swift */; };
 		3F00ABE11BF65C59004AF145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00ABDF1BF65C59004AF145 /* Main.storyboard */; };
@@ -14,6 +16,23 @@
 		3F00ABE61BF65C59004AF145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00ABE41BF65C59004AF145 /* LaunchScreen.storyboard */; };
 		3F00ABF11BF65C5A004AF145 /* BrindleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABF01BF65C5A004AF145 /* BrindleTests.swift */; };
 		3F00ABFC1BF65C5A004AF145 /* BrindleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00ABFB1BF65C5A004AF145 /* BrindleUITests.swift */; };
+		3F34DB8E1BF899950027892A /* BRINDLEAUGUST.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */; };
+		3F37EBA31BF674FA0026A3BA /* MagazineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EBA21BF674FA0026A3BA /* MagazineViewCell.swift */; };
+		3F37EBA51BF676640026A3BA /* EditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EBA41BF676640026A3BA /* EditionViewController.swift */; };
+		3F37EBB31BF741C90026A3BA /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBA81BF741C90026A3BA /* 2.html */; };
+		3F37EBB41BF741C90026A3BA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBA91BF741C90026A3BA /* 2.png */; };
+		3F37EBB51BF741C90026A3BA /* 3.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAA1BF741C90026A3BA /* 3.html */; };
+		3F37EBB61BF741C90026A3BA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAB1BF741C90026A3BA /* 3.png */; };
+		3F37EBB71BF741C90026A3BA /* 4.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAC1BF741C90026A3BA /* 4.html */; };
+		3F37EBB81BF741C90026A3BA /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAD1BF741C90026A3BA /* 4.png */; };
+		3F37EBB91BF741C90026A3BA /* 5.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAE1BF741C90026A3BA /* 5.html */; };
+		3F37EBBA1BF741C90026A3BA /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBAF1BF741C90026A3BA /* 5.png */; };
+		3F37EBBB1BF741C90026A3BA /* Brindle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EBB01BF741C90026A3BA /* Brindle.png */; };
+		3F6664351BFA12320097B460 /* Touchicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6664341BFA12320097B460 /* Touchicon.png */; };
+		3FFFB5641C0235F9008BDADF /* BRINDLEAUGUST.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFB5621C0235F9008BDADF /* BRINDLEAUGUST.html */; };
+		3FFFB5651C0235F9008BDADF /* BRINDLEAUGUST.hyperesources in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFB5631C0235F9008BDADF /* BRINDLEAUGUST.hyperesources */; };
+		3FFFB5671C02360E008BDADF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFB5661C02360E008BDADF /* 1.png */; };
+		71E1BE347D2AB0E82406A3F4 /* Pods_BrindleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFC2458BE133DC500A2B3A9 /* Pods_BrindleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14AB1EF26D2DBB09305D7803 /* Pods_BrindleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrindleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFC2458BE133DC500A2B3A9 /* Pods_BrindleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrindleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00ABD81BF65C59004AF145 /* Brindle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brindle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00ABDB1BF65C59004AF145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F00ABDD1BF65C59004AF145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,29 @@
 		3F00ABF71BF65C5A004AF145 /* BrindleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrindleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00ABFB1BF65C5A004AF145 /* BrindleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrindleUITests.swift; sourceTree = "<group>"; };
 		3F00ABFD1BF65C5A004AF145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRINDLEAUGUST.png; sourceTree = "<group>"; };
+		3F37EBA21BF674FA0026A3BA /* MagazineViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineViewCell.swift; sourceTree = "<group>"; };
+		3F37EBA41BF676640026A3BA /* EditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditionViewController.swift; path = ../EditionViewController.swift; sourceTree = "<group>"; };
+		3F37EBA81BF741C90026A3BA /* 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
+		3F37EBA91BF741C90026A3BA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3F37EBAA1BF741C90026A3BA /* 3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3.html; sourceTree = "<group>"; };
+		3F37EBAB1BF741C90026A3BA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3F37EBAC1BF741C90026A3BA /* 4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4.html; sourceTree = "<group>"; };
+		3F37EBAD1BF741C90026A3BA /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3F37EBAE1BF741C90026A3BA /* 5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5.html; sourceTree = "<group>"; };
+		3F37EBAF1BF741C90026A3BA /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3F37EBB01BF741C90026A3BA /* Brindle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brindle.png; sourceTree = "<group>"; };
+		3F6664341BFA12320097B460 /* Touchicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Touchicon.png; sourceTree = "<group>"; };
+		3FFFB5621C0235F9008BDADF /* BRINDLEAUGUST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BRINDLEAUGUST.html; sourceTree = "<group>"; };
+		3FFFB5631C0235F9008BDADF /* BRINDLEAUGUST.hyperesources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BRINDLEAUGUST.hyperesources; sourceTree = "<group>"; };
+		3FFFB5661C02360E008BDADF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		53B452A6DB4C9252510162C1 /* Pods-BrindleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrindleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrindleUITests/Pods-BrindleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		580862B769A185E3723A1B14 /* Pods-Brindle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brindle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brindle/Pods-Brindle.release.xcconfig"; sourceTree = "<group>"; };
+		5B3367DD9F03902675EB71AA /* Pods-BrindleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrindleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrindleUITests/Pods-BrindleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71D8EB4C24842DFFF5A16069 /* Pods-Brindle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brindle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brindle/Pods-Brindle.debug.xcconfig"; sourceTree = "<group>"; };
+		B48B2B95751B999CF90C6423 /* Pods_Brindle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brindle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AAD4C7886BF0C3EFA88FAB /* Pods-BrindleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrindleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrindleTests/Pods-BrindleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA45DEAF4CB226A073012252 /* Pods-BrindleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrindleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrindleTests/Pods-BrindleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F6690581CEFEE0B3B33AA2 /* Pods_Brindle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E1BE347D2AB0E82406A3F4 /* Pods_BrindleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +114,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2761DBD02A1684E88B9C67F2 /* Pods_BrindleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0606BAA1921991A34B5AF6C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D8EB4C24842DFFF5A16069 /* Pods-Brindle.debug.xcconfig */,
+				580862B769A185E3723A1B14 /* Pods-Brindle.release.xcconfig */,
+				C8AAD4C7886BF0C3EFA88FAB /* Pods-BrindleTests.debug.xcconfig */,
+				FA45DEAF4CB226A073012252 /* Pods-BrindleTests.release.xcconfig */,
+				53B452A6DB4C9252510162C1 /* Pods-BrindleUITests.debug.xcconfig */,
+				5B3367DD9F03902675EB71AA /* Pods-BrindleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F00ABCF1BF65C59004AF145 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +141,8 @@
 				3F00ABEF1BF65C5A004AF145 /* BrindleTests */,
 				3F00ABFA1BF65C5A004AF145 /* BrindleUITests */,
 				3F00ABD91BF65C59004AF145 /* Products */,
+				4E51B370A3733E0AD4A3F54C /* Frameworks */,
+				0606BAA1921991A34B5AF6C6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +159,10 @@
 		3F00ABDA1BF65C59004AF145 /* Brindle */ = {
 			isa = PBXGroup;
 			children = (
+				3F37EBBD1BF7423B0026A3BA /* web */,
+				3F37EBBC1BF7422D0026A3BA /* img */,
+				3F37EBA41BF676640026A3BA /* EditionViewController.swift */,
+				3F37EBA21BF674FA0026A3BA /* MagazineViewCell.swift */,
 				3F00ABDB1BF65C59004AF145 /* AppDelegate.swift */,
 				3F00ABDD1BF65C59004AF145 /* ViewController.swift */,
 				3F00ABDF1BF65C59004AF145 /* Main.storyboard */,
@@ -125,6 +191,44 @@
 			path = BrindleUITests;
 			sourceTree = "<group>";
 		};
+		3F37EBBC1BF7422D0026A3BA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFB5661C02360E008BDADF /* 1.png */,
+				3F6664341BFA12320097B460 /* Touchicon.png */,
+				3F34DB8D1BF899950027892A /* BRINDLEAUGUST.png */,
+				3F37EBA91BF741C90026A3BA /* 2.png */,
+				3F37EBAB1BF741C90026A3BA /* 3.png */,
+				3F37EBAD1BF741C90026A3BA /* 4.png */,
+				3F37EBAF1BF741C90026A3BA /* 5.png */,
+				3F37EBB01BF741C90026A3BA /* Brindle.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		3F37EBBD1BF7423B0026A3BA /* web */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFB5621C0235F9008BDADF /* BRINDLEAUGUST.html */,
+				3FFFB5631C0235F9008BDADF /* BRINDLEAUGUST.hyperesources */,
+				3F37EBA81BF741C90026A3BA /* 2.html */,
+				3F37EBAA1BF741C90026A3BA /* 3.html */,
+				3F37EBAC1BF741C90026A3BA /* 4.html */,
+				3F37EBAE1BF741C90026A3BA /* 5.html */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		4E51B370A3733E0AD4A3F54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48B2B95751B999CF90C6423 /* Pods_Brindle.framework */,
+				3EFC2458BE133DC500A2B3A9 /* Pods_BrindleTests.framework */,
+				14AB1EF26D2DBB09305D7803 /* Pods_BrindleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F00AC001BF65C5A004AF145 /* Build configuration list for PBXNativeTarget "Brindle" */;
 			buildPhases = (
+				B706EEFDB0CF6CA936E63157 /* Check Pods Manifest.lock */,
 				3F00ABD41BF65C59004AF145 /* Sources */,
 				3F00ABD51BF65C59004AF145 /* Frameworks */,
 				3F00ABD61BF65C59004AF145 /* Resources */,
+				E38AA329AB0B3F962B53C623 /* Embed Pods Frameworks */,
+				F5FF72847268C7DBB61A2AE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F00AC031BF65C5A004AF145 /* Build configuration list for PBXNativeTarget "BrindleTests" */;
 			buildPhases = (
+				8FDA0FE49D8C71F4900AFE48 /* Check Pods Manifest.lock */,
 				3F00ABE81BF65C5A004AF145 /* Sources */,
 				3F00ABE91BF65C5A004AF145 /* Frameworks */,
 				3F00ABEA1BF65C5A004AF145 /* Resources */,
+				51390279A45AB3A0CF363B09 /* Embed Pods Frameworks */,
+				FB457857AA02FFE866A9F4EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F00AC061BF65C5A004AF145 /* Build configuration list for PBXNativeTarget "BrindleUITests" */;
 			buildPhases = (
+				AF8DB63271F2650A5BFD88B0 /* Check Pods Manifest.lock */,
 				3F00ABF31BF65C5A004AF145 /* Sources */,
 				3F00ABF41BF65C5A004AF145 /* Frameworks */,
 				3F00ABF51BF65C5A004AF145 /* Resources */,
+				E39E2B389016F4EA74A9BCF7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +305,7 @@
 				TargetAttributes = {
 					3F00ABD71BF65C59004AF145 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 58D38XLN7V;
 					};
 					3F00ABEB1BF65C5A004AF145 = {
 						CreatedOnToolsVersion = 7.1;
@@ -229,9 +342,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F37EBB91BF741C90026A3BA /* 5.html in Resources */,
+				3FFFB5671C02360E008BDADF /* 1.png in Resources */,
+				3F37EBB81BF741C90026A3BA /* 4.png in Resources */,
+				3F34DB8E1BF899950027892A /* BRINDLEAUGUST.png in Resources */,
+				3FFFB5651C0235F9008BDADF /* BRINDLEAUGUST.hyperesources in Resources */,
+				3F37EBB51BF741C90026A3BA /* 3.html in Resources */,
+				3F37EBB71BF741C90026A3BA /* 4.html in Resources */,
+				3F37EBB41BF741C90026A3BA /* 2.png in Resources */,
 				3F00ABE61BF65C59004AF145 /* LaunchScreen.storyboard in Resources */,
+				3F37EBB61BF741C90026A3BA /* 3.png in Resources */,
+				3F37EBBB1BF741C90026A3BA /* Brindle.png in Resources */,
 				3F00ABE31BF65C59004AF145 /* Assets.xcassets in Resources */,
+				3FFFB5641C0235F9008BDADF /* BRINDLEAUGUST.html in Resources */,
+				3F6664351BFA12320097B460 /* Touchicon.png in Resources */,
+				3F37EBBA1BF741C90026A3BA /* 5.png in Resources */,
 				3F00ABE11BF65C59004AF145 /* Main.storyboard in Resources */,
+				3F37EBB31BF741C90026A3BA /* 2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +378,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51390279A45AB3A0CF363B09 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrindleTests/Pods-BrindleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDA0FE49D8C71F4900AFE48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8DB63271F2650A5BFD88B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B706EEFDB0CF6CA936E63157 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E38AA329AB0B3F962B53C623 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brindle/Pods-Brindle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39E2B389016F4EA74A9BCF7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrindleUITests/Pods-BrindleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FF72847268C7DBB61A2AE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brindle/Pods-Brindle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB457857AA02FFE866A9F4EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrindleTests/Pods-BrindleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F00ABD41BF65C59004AF145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F00ABDE1BF65C59004AF145 /* ViewController.swift in Sources */,
+				3F37EBA51BF676640026A3BA /* EditionViewController.swift in Sources */,
 				3F00ABDC1BF65C59004AF145 /* AppDelegate.swift in Sources */,
+				3F37EBA31BF674FA0026A3BA /* MagazineViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,28 +649,41 @@
 		};
 		3F00AC011BF65C5A004AF145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D8EB4C24842DFFF5A16069 /* Pods-Brindle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Brindle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brindle.Brindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		3F00AC021BF65C5A004AF145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580862B769A185E3723A1B14 /* Pods-Brindle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Brindle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brindle.Brindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		3F00AC041BF65C5A004AF145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AAD4C7886BF0C3EFA88FAB /* Pods-BrindleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BrindleTests/Info.plist;
@@ -431,6 +696,7 @@
 		};
 		3F00AC051BF65C5A004AF145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA45DEAF4CB226A073012252 /* Pods-BrindleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BrindleTests/Info.plist;
@@ -443,6 +709,7 @@
 		};
 		3F00AC071BF65C5A004AF145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B452A6DB4C9252510162C1 /* Pods-BrindleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BrindleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -455,6 +722,7 @@
 		};
 		3F00AC081BF65C5A004AF145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3367DD9F03902675EB71AA /* Pods-BrindleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BrindleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +752,7 @@
 				3F00AC021BF65C5A004AF145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F00AC031BF65C5A004AF145 /* Build configuration list for PBXNativeTarget "BrindleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +761,7 @@
 				3F00AC051BF65C5A004AF145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F00AC061BF65C5A004AF145 /* Build configuration list for PBXNativeTarget "BrindleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +770,7 @@
 				3F00AC081BF65C5A004AF145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

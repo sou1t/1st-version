@@ -1,25 +1,175 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hua-xA-wSa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Brindle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brindle.png" translatesAutoresizingMaskIntoConstraints="NO" id="3FE-EY-E5F">
+                                <rect key="frame" x="316" y="20" width="382" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="iYj-g0-8HV"/>
+                                    <constraint firstAttribute="height" constant="128" id="kQO-22-IaF"/>
+                                </constraints>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ID7-Yt-idc">
+                                <rect key="frame" x="0.0" y="231" width="1024" height="337"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ab6-jn-Y23">
+                                    <size key="itemSize" width="211" height="317"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="jh2-eL-mnu" customClass="MagazineViewCell" customModule="Brindle" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="10" width="211" height="317"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="211" height="317"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2e-lL-gRC">
+                                                    <rect key="frame" x="0.0" y="267" width="211" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="Vu1-rA-WKS"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Download"/>
+                                                    <connections>
+                                                        <action selector="DownloadClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6IN-NJ-0rN"/>
+                                                    </connections>
+                                                </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9R3-7i-72B">
+                                                    <rect key="frame" x="0.0" y="-5" width="211" height="322"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="n2e-lL-gRC" secondAttribute="trailing" id="FNh-9O-3Wb"/>
+                                            <constraint firstAttribute="bottom" secondItem="9R3-7i-72B" secondAttribute="bottom" id="Fou-JH-Vzd"/>
+                                            <constraint firstItem="n2e-lL-gRC" firstAttribute="leading" secondItem="jh2-eL-mnu" secondAttribute="leading" id="H5U-fe-cfy"/>
+                                            <constraint firstItem="9R3-7i-72B" firstAttribute="leading" secondItem="n2e-lL-gRC" secondAttribute="leading" id="Vck-9N-9Sh"/>
+                                            <constraint firstItem="9R3-7i-72B" firstAttribute="top" secondItem="jh2-eL-mnu" secondAttribute="topMargin" constant="-13" id="c7A-LO-oJY"/>
+                                            <constraint firstItem="n2e-lL-gRC" firstAttribute="bottom" secondItem="9R3-7i-72B" secondAttribute="bottom" id="dG4-Pf-hiG"/>
+                                            <constraint firstItem="n2e-lL-gRC" firstAttribute="trailing" secondItem="9R3-7i-72B" secondAttribute="trailing" id="ves-9o-tmG"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="DownloadButon" destination="n2e-lL-gRC" id="7GN-if-elJ"/>
+                                            <outlet property="Image" destination="9R3-7i-72B" id="pFW-8b-BKU"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="v9k-Er-6s8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ZKD-3E-LXq"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItW-mJ-c3s">
+                                <rect key="frame" x="0.0" y="576" width="211" height="88"/>
+                                <state key="normal" title="DownloadTest">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="DownloadTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chd-Gv-kAG"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="S1f-r9-isv">
+                                <rect key="frame" x="0.0" y="576" width="219" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ID7-Yt-idc" secondAttribute="trailing" id="UHj-4w-aUF"/>
+                            <constraint firstItem="ID7-Yt-idc" firstAttribute="top" secondItem="3FE-EY-E5F" secondAttribute="bottom" constant="83" id="XbR-40-Jrg"/>
+                            <constraint firstItem="3FE-EY-E5F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="eEA-zU-GGQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ID7-Yt-idc" secondAttribute="bottom" constant="200" id="fPG-uk-0es"/>
+                            <constraint firstItem="ID7-Yt-idc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qBj-BT-eoX"/>
+                            <constraint firstItem="3FE-EY-E5F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="316" id="y7n-ZK-aPB"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vcE-vK-9Xx"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="DownloadTest" destination="ItW-mJ-c3s" id="ZVp-lU-mwi"/>
+                        <outlet property="progress" destination="S1f-r9-isv" id="7L3-N8-Hqs"/>
+                        <segue destination="Qfa-Ka-YIH" kind="show" identifier="showWeb" id="ZBT-dR-01o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="627" y="361"/>
+        </scene>
+        <!--Edition View Controller-->
+        <scene sceneID="f9r-5X-LiS">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="Qfa-Ka-YIH" customClass="EditionViewController" customModule="Brindle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hdl-OU-I4t"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ya-1g-dQ3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wfX-y1-L4s">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" fixedFrame="YES" scalesPageToFit="YES" suppressesIncrementalRendering="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mx-eh-9ZB">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="web" destination="5mx-eh-9ZB" id="bCM-JQ-r6n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3Q-br-cPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879" y="361"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sfC-1S-q1a">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hua-xA-wSa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" hidden="YES" alpha="0.0" contentMode="scaleToFill" id="yhm-bv-o1w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Imn-eE-Xzf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKU-JT-PVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-300" y="277"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Brindle.png" width="4167" height="949"/>
+    </resources>
 </document>
